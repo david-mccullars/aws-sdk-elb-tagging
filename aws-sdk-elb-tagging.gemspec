@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = 'aws-sdk-elb-tagging'
-  spec.version       = '1.52.0'
+  spec.version       = '1.58.0'
   spec.authors       = ['David McCullars']
   spec.email         = ['david.mccullars@gmail.com']
   spec.summary       = %q{Provides SDK support for AWS ELB tagging.}
@@ -13,5 +13,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.6'
   spec.add_development_dependency 'rake'
-  spec.add_runtime_dependency 'aws-sdk', '~> 1.52'
+  spec.add_runtime_dependency 'aws-sdk-v1', '~> 1.58'
 end
